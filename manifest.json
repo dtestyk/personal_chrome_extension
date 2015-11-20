@@ -1,0 +1,16 @@
+{
+  "name": "personal extension",
+  "version": "1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://ficbook.net/*"],
+    "js": ["ficbook.js"],
+    "run_at" : "document_end",
+    "all_frames" : false
+  },{
+    "matches": ["http://seasonvar.ru/*"],
+    "js": ["seasonvar.js"],
+    "run_at" : "document_end",
+    "all_frames" : false
+  }]
+}
