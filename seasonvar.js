@@ -3,8 +3,9 @@ var left_banner = document.querySelector('.td-for-left-block')
 if(left_banner){
   //left_banner.parentNode.removeChild(bottom_right_banner)
   //console.log("bottom_right_banner was removed.")
-  left_banner.style.display='none'
-  console.log('left_banner hided.')
+  //left_banner.style.display='none'
+  //left_banner.style.visibility = 'hidden'
+  //console.log('left_banner hided.')
 }
 
 var observer = new MutationObserver(function(mutations) {
